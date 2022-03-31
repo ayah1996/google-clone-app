@@ -15,7 +15,7 @@ export const ResultContextProvider = ({ children }) => {
     const { data } = await axios.get(`${baseUrl}${type}`, {
       headers: {
         "X-RapidAPI-Host": "google-search3.p.rapidapi.com",
-        "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
+        "X-RapidAPI-Key": "2780ab2661mshbe20cf36cf012d8p17cbf2jsnd54bbf72dcdc",
         "X-User-Agent": "desktop",
       },
     });
