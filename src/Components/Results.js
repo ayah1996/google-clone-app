@@ -25,7 +25,7 @@ const Results = () => {
   switch (location.pathname) {
     case "/search":
       return (
-        <div className="flex flex-wrap justify-between space-y-6 sm:px-56">
+        <div className="flex flex-wrap justify-between items-start space-y-6 sm:px-56">
           {results?.map(({ link, title }, index) => (
             <div key={index} className="md:w-2/5 w-full">
               <a href={link} target="_blank" rel="noreferrer">
@@ -90,7 +90,7 @@ const Results = () => {
                 <ReactPlayer
                   url={video.additional_links?.[0].href}
                   controls
-                  width="355px"
+                  width="350px"
                   height="200px"
                 />
               )}
