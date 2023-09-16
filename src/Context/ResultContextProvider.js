@@ -2,7 +2,7 @@ import axios from "axios";
 import { createContext, useContext, useState } from "react";
 
 const ResultContext = createContext();
-const baseUrl = "https://google-search3.p.rapidapi.com/api/v1";
+const baseUrl = "https://google-search72.p.rapidapi.com";
 
 export const ResultContextProvider = ({ children }) => {
   const [results, setResults] = useState([]);
@@ -12,20 +12,20 @@ export const ResultContextProvider = ({ children }) => {
   const getResults = async (type) => {
     setIsLoading(true);
 
-    const { data } = await axios.get(`${baseUrl}${type}`, {
+    const response = await axios.get(`${baseUrl}${type}`, {
       headers: {
-        "X-RapidAPI-Host": "google-search3.p.rapidapi.com",
+        // get REACT_APP_API_KEY from .env file
+
         "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
-        "X-User-Agent": "desktop",
+        "X-RapidAPI-Host": "google-search72.p.rapidapi.com",
       },
     });
+    const { items } = response.data;
 
-    if (type.includes("/news")) {
-      setResults(data.entries);
-    } else if (type.includes("/image")) {
-      setResults(data.image_results);
-    } else {
-      setResults(data.results);
+    if (type.includes("/search")) {
+      setResults(items);
+    } else if (type.includes("/imagesearch")) {
+      setResults(items);
     }
     setIsLoading(false);
   };

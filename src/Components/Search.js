@@ -7,7 +7,7 @@ const Search = () => {
   const [text, setText] = useState("Javascript");
   const { setSearchTerm } = useResultContext();
 
-  const [debounceValue] = useDebounce(text, 300);
+  const [debounceValue] = useDebounce(text, 500);
 
   useEffect(() => {
     if (debounceValue) setSearchTerm(debounceValue);

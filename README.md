@@ -1,71 +1,36 @@
-# Getting Started with Create React App
+A google clone app using Google Search API, shows news, images, and video
+relative to the search phrase, dark and light mood.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Technologies used:
 
-In the project directory, you can run:
+TailwindCss, Context, Axios, React-player, REST API
 
-### `npm start`
+[Live Preview](https://google-clone-app-xi.vercel.app/search)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![google-clone-all](https://user-images.githubusercontent.com/17669366/168014700-efcb073b-4c6d-4fc6-a688-c8fc14ce4930.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![google-clone-images](https://user-images.githubusercontent.com/17669366/168014941-b8efb761-f4f2-42a7-addd-708153d85397.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![google-clone-videos](https://user-images.githubusercontent.com/17669366/168015564-00ee104d-3af9-4a40-8024-0363e991eb7f.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![google-clone-light](https://user-images.githubusercontent.com/17669366/168016037-8b01bb46-b0e9-467b-88f9-dcbd52840e3d.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![google-clone-900](https://user-images.githubusercontent.com/17669366/168016390-2d5e8067-119d-4a0f-871b-51aefddf2feb.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![google-clone-350-all](https://user-images.githubusercontent.com/17669366/168016925-be2179a9-a66f-4be5-b61c-aa538d4dde76.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# google-clone-app
+![google-clone-350-images](https://user-images.githubusercontent.com/17669366/168018757-af2c04f5-9418-40fa-803f-b168e8e27cb6.jpg)
