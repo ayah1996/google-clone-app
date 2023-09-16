@@ -14,8 +14,6 @@ export const ResultContextProvider = ({ children }) => {
 
     const response = await axios.get(`${baseUrl}${type}`, {
       headers: {
-        // get REACT_APP_API_KEY from .env file
-
         "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
         "X-RapidAPI-Host": "google-search72.p.rapidapi.com",
       },
