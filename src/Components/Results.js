@@ -8,7 +8,7 @@ import Loading from "./Loading";
 const Results = () => {
   const { results, searchTerm, getResults, isLoading } = useResultContext();
 
-  const location = useLocation(); // images
+  const location = useLocation();
 
   useEffect(() => {
     if (searchTerm) {
