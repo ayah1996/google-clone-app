@@ -1,4 +1,4 @@
-A google clone app using Google Search API, shows news, images, and video
+A google clone app using Google Search API, shows news and images
 relative to the search phrase, dark and light mood.
 
 
