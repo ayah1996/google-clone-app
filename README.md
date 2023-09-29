@@ -4,7 +4,7 @@ relative to the search phrase, dark and light mood.
 
 Technologies used:
 
-TailwindCss, Context, Axios, React-player, REST API
+TailwindCss, Context, Axios, REST API
 
 [Live Preview](https://google-clone-app-xi.vercel.app/search)
 
